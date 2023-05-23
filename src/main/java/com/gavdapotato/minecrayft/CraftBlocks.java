@@ -1,6 +1,6 @@
-package com.gavdapotato.minecrafyt;
+package com.gavdapotato.minecrayft;
 
-public class CrayftBlocks {
+public class CraftBlocks {
     //Create DeferredRegister for blocks
 
     //Register Blocks

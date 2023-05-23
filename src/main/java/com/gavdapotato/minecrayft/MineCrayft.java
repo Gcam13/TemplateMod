@@ -1,4 +1,4 @@
-package com.yourname.yourmodid;
+package com.gavdapotato.minecrayft;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +19,7 @@ public class MineCrayft
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        CraftItems.register(modEventBus);
     }
 
 }
